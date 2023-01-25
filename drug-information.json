@@ -1,0 +1,856 @@
+{
+    "caffeine": {
+        "half-life": "6.22055 hours",
+        "absorption half-life": "4.7 minutes",
+        "volume of distribution": "0.7 L/kg",
+        "clearance rate": "0.078 L/kg/h",
+        "tmax": "0.5 hours",
+        "dosage": {
+            "NOAEL": "6 mg/kg",
+            "TDLo": "15 mg/L",
+            "LDLo": "80 mg/L",
+            "LD50": "187 mg/L",
+            "LD50 SD": "96",
+            "LD100": "567 mg/L",
+            "toxic dose": "50 mg/L",
+            "1.4 mg/kg": ["insomnia"],
+            "2 mg/kg": ["delayed fatigue", "increase alertness"],
+            "3 mg/kg": ["relaxed effect", "elevated mood"],
+            "5 mg/kg": ["increase norepinephrine"],
+            "7 mg/kg": ["inhibits GABA", "euphoria"],
+            "9 mg/kg": ["anxiety"],
+            "10 mg/kg": ["panic attacks"],
+            "15 mg/kg": ["twitching", "vomiting", "psychotic delerium"],
+            "15 mg/L": ["nervousness", "irritability", "nausea",
+            "palpitations", "tremors", "perspiration", "paresthesia"],
+            "80 mg/kg": ["unconsciousness"],
+            "KD": {
+                "A2a receptor": "0.466 mg/L",
+                "A1 receptor": "2.33 mg/L",
+                "A2b receptor": "2.53 mg/L",
+                "A3 receptor": "15.54 mg/L"
+            },
+            "insomnia": "1.4 mg/kg",
+            "unconsciousness": "80 mg/kg",
+            "EC50": "551 +/- 81 micromole",
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "150%",
+                    "formula": "mg/kg * 15"
+                },
+                "adenosine": {
+                    "max": "-50%",
+                    "formula": "mg/kg * -5.5"
+                },
+                "epinephrine": {
+                    "max": "100%",
+                    "formula": "(mg/kg - 1) * 12.5"
+                },
+                "serotonin": {
+                    "max": "30%",
+                    "formula": "mg/kg * 7"
+                },
+                "glutamate": {
+                    "max": "100%",
+                    "formula": "mg/kg * 10"
+                }
+            }
+        }
+    },
+    "l-theanine": {
+        "half-life": "1.2 hours",
+        "absorption half-life": "0.3 hours",
+        "tmax": "48 minutes",
+        "dosage": {
+            "NOAEL": "4000 mg/kg",
+            "LD50": "5000 mg/kg",
+            "minimum": "0.15 mg/kg",
+            "dosage": "3 mg/kg",
+            "sleep": "20 mg/kg"
+        },
+        "misc": {
+            "bulk density": "0.37 g/mL",
+            "tapped density": "0.48 g/mL"
+        }
+    },
+    "melatonin": {
+        "half-life": "38.2 minutes",
+        "absorption half-life": "6 minutes",
+        "tmax": "19 minutes",
+        "volume of distribution": "1.2 L/kg",
+        "clearance rate": "0.0218 L/kg/min",
+        "LD50": "3200 mg/kg",
+        "dosage": {
+            "minimum": "0.003 mg/kg",
+            "dosage": "0.05 mg/kg"
+        },
+        "misc": {
+            "basal values morning": "10 pg/mL",
+            "basal values night": "60 ph/mL",
+            "bioavailability": "15%"
+        }
+    },
+    "gaba": {
+        "half-life": "5.28 hours",
+        "absorption half-life": "0.36 hours",
+        "tmax": "1.5 hours",
+        "dosage": {
+            "LD50": "12,680 mg/kg",
+            "NOAEL": "500 mg/kg",
+            "LDLo": "2400 mg/kg",
+            "improve sleep": "150 - 300 mg",
+            "calming effect": "1.4 mg/kg"
+        },
+        "misc": {
+            "tmax range": "0.75 - 2 hours",
+            "bulk density": "0.36 g/mL",
+            "baseline gaba levels": "0.01 mg/L",
+            "misc": [
+                "Nitric Oxide helps gaba pass blood brain barrier; L-arginine increases nitric oxide",
+                "Increases GABA 33% above baseline in the brain",
+                "Increases GABA 383.3% above baseline combined with l-arginine"
+            ]
+        }
+    },
+    "l-tyrosine": {
+        "half-life": "3 hours",
+        "tmax": "30 minutes",
+        "absorption half-life": "30 minutes",
+        "dosage": {
+            "dosage": "12.5 mg/kg",
+            "per day": "150 mg/kg"
+        }
+    },
+    "l-tryptophan": {
+        "half-life": "2.2 hours",
+        "tmax": "85 minutes",
+        "tmax range": "80 - 90 minutes",
+        "volume of distribution": "0.82 mL/g",
+        "clearance rate": "0.0043 mL/g/min",
+        "absorption half-life": "31 minutes",
+        "misc": {
+            "misc": [
+                "L-Tryptophan is a natural amino acid, 3% of it synthesis into 5-HTP, and 5-HTP synthesis into serotonin, serotonin into melatonin."
+            ]
+        }
+    },
+    "doxylamine": {
+        "half-life": "10.8 hours",
+        "tmax": "1.67 hours",
+        "absorption half-life": "0.32 hours",
+        "dosage": {
+            "TDLo": "1.8 mg/kg"
+        }
+    },
+    "alpha-gpc": {
+        "half-life": "6.82 hours",
+        "half-life range": "6.8 hours",
+        "tmax": "3.51 hours",
+        "tmax range": "6.08 - 0.94 hours",
+        "absorption half-life": "1.13 hours",
+        "dosage": {
+            "LD50": "10,000 mg/kg",
+            "NOAEL": "150 mg/kg",
+            "minimum effective dosage": "25 mg"
+        },
+        "misc": ["40% of alpha-gpc is choline"]
+    },
+    "chamomile": {
+        "apigenin": {
+            "half-life": "12 hours",
+            "tmax": "0.51 hours",
+            "tmax range": "0.38 - 0.64 hours",
+            "absorption half-life": "0.068 hours"
+        },
+        "dosage": {
+            "apigenin": {
+                "LD50": "4,837.5 mg/kg",
+                "LOAEL": "150 mg/kg",
+                "NOAEL": "75 mg/kg"
+            }
+        },
+        "misc": {
+            "misc": [
+                "dosage for sedation 0.6 mg/kg (apigenin)"
+            ]
+        }
+    },
+    "levo-methylphenidate": {
+        "half-life": "1.71 hours",
+        "tmax": "2 hours",
+        "concerta tmax": "6.8 hours",
+        "concerta tmax range": "5 - 8.6 hours",
+        "volume of distribution": "1.8 L/kg",
+        "volume of distribution range": "0.89 - 2.71 L/kg",
+        "clearance rate": "0.73 L/kg/h",
+        "clearance rate range": "0.45 - 1.01 L/kg/h",
+        "absorption half-life": "1.14 hours",
+        "dosage": {
+            "NOAEL": "12.5 mg/kg",
+            "LDLo": "40 mg/kg",
+            "LD50": "190 mg/kg",
+            "60 mg/kg": ["liver damage"]
+        }
+    },
+    "b-alanine": {
+        "half-life": "25 minutes",
+        "tmax": "15 minutes",
+        "absorption half-life": "5.27 minutes"
+    },
+    "valproic acid": {
+        "half-life": "11.55 hours",
+        "volume of distribution": "0.1 L/kg",
+        "clearance rate": "0.006 L/kg/h",
+        "tmax": "4 hours",
+        "absorption half-life": "1.05 hours",
+        "dosage": {
+            "NOAEL": "170 ug/mL",
+            "LOAEL": "340 ug/mL"
+        }
+    },
+    "taurine": {
+        "half-life": "0.9855 hours",
+        "tmax": "1.5 hours",
+        "absorption half-life": "1.1 hours",
+        "dosage": {
+            "NOAEL": "1,000 mg/kg",
+            "LD50": "7,000 mg/kg"
+        }
+    },
+    "rhodiola": {
+        "half-life": "0.93 hours",
+        "clearance rate": "1.5 L/kg/h",
+        "volume of distribution": "2.02 L/kg",
+        "tmax": "2 hours",
+        "absorption half-life": "2.2 hours",
+        "dosage": {
+            "LD50": "3,360 mg/kg",
+            "NOAEL": "50 mg/kg"
+        },
+        "misc": {
+            "misc": [
+                "50 mg delay fatigue",
+                "250 mg lasts 4 hours",
+                "increases serotonin 30%"
+            ],
+            "IG salidroside": {
+                "tmax": "0.3 hours",
+                "tmax range": "0.2 - 0.4 hours",
+                "clearance rate": "2.54 L/h",
+                "clearance rate range": "2.39 - 2.69 L/h",
+                "volume of distribution": "4.46 L/kg",
+                "volume of distribution range": "3.27 - 5.65 L/kg"
+            },
+            "IV salidrosine": {
+                "volume of distribution": "0.98 L/h",
+                "volume of distribution range": "0.65 - 1.31 L/kg",
+                "clearance rate": "1.78 L/h",
+                "clearance rate range": "1.42 - 2.14 L/kg/h",
+                "half-life": "0.7 hours",
+                "half-life range": "0.49 - 0.91 hours",
+                "half-life calculated": "0.38 hours"
+            }
+        }
+    },
+    "phenylethylamine": {
+        "tmax": "0.25 hours",
+        "half-life": "6.9 minutes",
+        "absorption half-life": "16.72 minutes",
+        "dosage": {
+            "LDLo": "203.3 mg/kg",
+            "LDLo range": "200 - 206.9 mg/kg",
+            "LD50": "226.7 mg/kg",
+            "LD50 range": "222.3 - 231.1 mg/kg",
+            "LD100": "258.3 mg/kg",
+            "TDLo": "30 mg/kg"
+        }
+    },
+    "pheylalanine": {
+        "tmax": "36.6 minutes",
+        "volume of distribution": "0.5 L/kg",
+        "clearance rate": "0.03 L/h/kg",
+        "absorption half-life": "5.1 minutes",
+        "half-life": "11.55 hours",
+        "dosage": {
+            "LD50": "5,287 mg/kg",
+            "NOAEL": "500 mg/kg"
+        }
+    },
+    "methylphenethylamine": {
+        "half-life": "4 minutes",
+        "tmax": "0.25 hours",
+        "absorption half-life": "42 minutes"
+    },
+    "cbd": {
+        "tmax": "1.3 hours",
+        "half-life": "2 hours",
+        "metabolites half-life": "34 hours",
+        "absorption half-life": "0.48 hours",
+        "dosage": {
+            "NOAEL": "400 mg/kg"
+        }
+    },
+    "ashwagandha": {
+        "withaferin-a": {
+            "tmax": "18 minutes",
+            "tmax range": "17.88 - 18.12 minutes",
+            "half-life": "61.2 minutes",
+            "half-life range": "51.33 - 71 minutes",
+            "volume of distribition": "0.005 L/kg",
+            "clearance rate": "290.67 mL/kg/min",
+            "clearance rate range": "274.78 - 306.56 mL/kg/min",
+            "absorption half-life": "4.4 minutes",
+            "dosage": {
+                "LD50": "54 mg/kg"
+            },
+            "misc": {
+                "misc": [
+                    "increase testosterone by 40%",
+                    "lowers cortisol by 11-33%",
+                    "lowers prolactin by 15%",
+                    "lowers insomnia by 69%, anxiety 88%, and depression 79%",
+                    "increase sperm count by 167% (675 mg 90 days)",
+                    "increase semen volume by 53% (675 mg 90 days)",
+                    "increase semen motility by 57% (675 mg 90 days)",
+                    "withaferin-a 0.092% present in ashwagandhadi"
+                ]
+            }
+        }
+    },
+    "cariprazine": {
+        "tmax": "3.9 hours",
+        "absorption half-life": "0.49 hours",
+        "half-life": "117.58 hours"
+    },
+    "5-htp": {
+        "half-life": "1.8 hours",
+        "volume of distribution": "0.6 L/kg",
+        "clearance rate": "0.23 L/h/kg",
+        "tmax": "1.5 hours",
+        "absorption half-life": "0.65 hours"
+    },
+    "ginger root": {
+        "half-life": "120 minutes",
+        "tmax": "65.6 minutes",
+        "tmax range": "21.2 - 110 minutes",
+        "absorption half-life": "21.8 minutes"
+    },
+    "ibuprofen": {
+        "half-life": "2.19 hours",
+        "clearance rate": "0.037 L/h/kg",
+        "volume of distribution": "0.117 L/kg",
+        "tmax": "1.25 hours",
+        "absorption half-life": "25 minutes",
+        "dosage": {
+            "LD50": "1200 mg/kg",
+            "NOAEL": "16 mg/kg",
+            "LOEL": "1 mg/kg",
+            "NOEL": "0.33 mg/kg"
+        }
+    },
+    "nicotine": {
+        "tmax": "4 minutes",
+        "clearance rate": "0.78 L/kg/h",
+        "volume of distribution": "2.6 L/kg",
+        "half-life": "2.31 hours",
+        "absorption half-life": "0.5 minutes",
+        "oral tmax": "20 minutes",
+        "oral absorption half-life": "3.6 minutes",
+        "dosage": {
+            "LD50": "0.8 mg/kg",
+            "LDLo": "0.5 mg/kg",
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "125%",
+                    "formula": "mg/kg * 1000"
+                }
+            }
+        },
+        "misc": {
+            "misc": [
+                "0.03 mg/kg injection 43% dopamine",
+                "marlboro mild contains 1.91 mg",
+                "camel menthol contains 2.56 mg"
+            ]
+        }
+    },
+    "l-arginine": {
+        "half-life": "1.27 hours",
+        "tmax": "0.7 hours",
+        "tmax range": "0.6 - 0.8 hours",
+        "absorption half-life": "14 minutes",
+        "dosage": {
+            "LD50": "5.1 g/kg"
+        },
+        "misc": {
+            "misc": [
+                "increases gaba by 65%"
+            ]
+        }
+    },
+    "kava": {
+        "half-life": "1.3 hours",
+        "tmax": "0.88 hours",
+        "absorption half-life": "20 minutes",
+        "volume of distribution": "0.085 L/kg",
+        "injection half-life": "31.2 minutes",
+        "injection volume of distribution": "2.7 L/kg",
+        "injection clearance rate": "89 mL/min",
+        "injection tmax": "10 minutes",
+        "injection absorption half-life": "2.5 minutes",
+        "dosage": {
+            "piper methysticum": {
+                "NOAEL": "24 mg/kg"
+            },
+            "500 mg/kg": ["liver damage"],
+            "minimum effective dosage": "70 mg"
+        },
+        "misc": {
+            "misc": [
+                "increases dopamine by 25-50%"
+            ]
+        }
+    },
+    "dextroamphetamine": {
+        "half-life": "7.9 hours",
+        "tmax": "3.3 hours",
+        "absorption half-life": "0.95 hours",
+        "dosage": {
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "6000%",
+                    "formula": "mg/kg * 2000"
+                },
+                "norepinephrine": {
+                    "max": "1500%",
+                    "formula": "mg/kg * 500"
+                }
+            }
+        }
+    },
+    "levoamphetamine": {
+        "half-life": "3.96 hours",
+        "tmax": "3.2 hours",
+        "adderall XR tmax": "7 hours",
+        "absorption half-life": "1.37 hours",
+        "volume of distribution": "4 L/kg",
+        "clearance rate": "0.7 L/kg/h",
+        "dosage": {
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "3500%",
+                    "formula": "mg/kg * 250"
+                },
+                "norepinephrine": {
+                    "max": "1500%",
+                    "formula": "(mg/kg - 1) * 200"
+                }
+            }
+        }
+    },
+    "methylenedioxymethylamphetamine": {
+        "half-life": "7 hours",
+        "tmax": "1.9 hours",
+        "tmax range": "1.5 - 2.3 hours",
+        "absorption half-life": "0.45 hours",
+        "volume of distribution": "4.9 L/kg",
+        "volume of distribution range": "2.3 - 7.5 L/kg",
+        "clearance rate": "0.48 L/kg",
+        "clearnce rate range": "0.35 - 0.61 L/kg",
+        "dosage": {
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "500%",
+                    "formula": "(mg/kg starting after 1.5 mg/kg) * 500"
+                },
+                "serotonin": {
+                    "max": "3000%",
+                    "formula": "mg/kg * 400"
+                },
+                "oxytocin": {
+                    "max": "500%",
+                    "formula": "mg/kg * 400"
+                }
+            }
+        },
+        "misc": {
+            "misc": [
+                "full recovery single dose 15 mg/kg takes 7 to 21 days (2-40% reduction in 5-HTT-IR)",
+                "full recovery from sleep 15 mg/kg (single dose) 180 days",
+                "1.5 mg/kg increase loving and friendly feelings",
+                "0.75 mg/kg increases loneliness"
+            ]
+        }
+    },
+    "topiramate": {
+        "misc": {
+            "misc": [
+                "increases gaba by 10-600% (25 mg to 1 g)"
+            ]
+        }
+    },
+    "gabapentin": {
+        "half-life": "6.52 hours",
+        "absorption half-life": "0.99 hours",
+        "dosage": {
+            "TDLo": "2.86 mg/kg"
+        },
+        "misc": {
+            "misc": [
+                "increases gaba by 55.7% (6.9 - 91%)"
+            ]
+        }
+    },
+    "dexmethylphenidate": {
+        "half-life": "4.6 hours",
+        "tmax": "1.5 hours",
+        "absorption half-life": "0.38 hours",
+        "dosage": {
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "200%",
+                    "formula": "mg/kg * 200"
+                },
+                "norepinephrine": {
+                    "max": "400%",
+                    "formula": "mg/kg * 400"
+                }
+            }
+        }
+    },
+    "lisdexamfetamine": {
+        "half-life": "0.47 hours",
+        "tmax": "1 hour",
+        "absorption half-life": "1.08 hours",
+        "misc": {
+            "misc": [
+                "41.5% is converted to dextroamphetamine"
+            ]
+        }
+    },
+    "lamotrigine": {
+        "half-life": "12.37 hours",
+        "tmax": "1.3 hours",
+        "XR tmax": "3 hours",
+        "absorption half-life": "0.22 hours",
+        "dosage": {
+            "LD50": "205 mg/kg",
+            "TDLo": "3.1 mg/kg"
+        }
+    },
+    "oxytocin": {
+        "half-life": "5.9 minutes",
+        "CSF half-life": "28 minutes",
+        "volume of distribution": "0.17 L/kg",
+        "clearance rate": "0.2 L/min"
+    },
+    "dopamine": {
+        "half-life": "1.9 minutes",
+        "synapse half-life": "200 ms"
+    },
+    "prolactin": {
+        "half-life": "23.7 minutes",
+        "volume of distribution": "1.3 L/kg",
+        "clearance rate": "0.038 L/min"
+    },
+    "azithromycin": {
+        "half-life": "28.13 hours",
+        "dosage": {
+            "minimum inhibitory concentration": "0.12 mg/L"
+        }
+    },
+    "alprazolam": {
+        "half-life": "10.9 hours",
+        "tmax": "3 hours",
+        "absorption half-life": "0.71 hours",
+        "volume of distribution": "0.84 L/kg",
+        "clearance rate": "0.0534 L/h",
+        "misc": {
+            "misc": [
+                "3 mg increased prolactin by 100% after 2-3 hours of dosing",
+                "increase GABAa by 200(+/-30%) (160-240%)"
+            ]
+        }
+    },
+    "b-endorphin": {
+        "half-life": "38.6 minutes",
+        "volume of distribution": "178 mL/kg",
+        "clearance rate": "3.2 mL/min/kg"
+    },
+    "piracetam": {
+        "half-life": "5 hours",
+        "absorption half-life": "0.37 hours",
+        "tmax": "1.5 hours",
+        "volume of distribution": "0.6 L/kg",
+        "misc": {
+            "misc": [
+                "increases dopamine by 21% (100 mg/kg)",
+                "decreases serotonin by 19% (100 mg/kg)",
+                "phenylpiracetam is 60-fold more potent than piracetam"
+            ]
+        }
+    },
+    "lsd": {
+        "half-life": "2.6 hours",
+        "tmax": "1.5 hours",
+        "volume of distribution": "0.676 L/kg",
+        "clearance rate": "0.18 L/kg/h",
+        "absorption half-life": "0.51 hours",
+        "dosage": {
+            "LD50": "0.3 mg/kg"
+        },
+        "misc": {
+            "misc": [
+                "average trip lasts 8.2 +/- 2.1 hours"
+            ]
+        }
+    },
+    "vitamin d": {
+        "25(OH)": {
+            "half-life": "15 days",
+            "adipose tissue half-life": "8 weeks"
+        },
+        "tmax": "5 days",
+        "absorption half-life": "1.3 days",
+        "dosage": {
+            "LD50": "100 ng/mL"
+        },
+        "misc": {
+            "misc": [
+                "sun exposure for 30 minutes is equivalent to 10,000 IU",
+                "100 UI = 1 ng/mL for 50 kg b.w.",
+                "body mass * 2 = IU per ng/mL",
+                "1 mcg = 40 IU",
+                "100 IU per minute for sun exposure for vitamin D3"
+            ]
+        }
+    },
+    "dextromethorphan": {
+        "half-life": "2 hours",
+        "tmax": "2.86 hours",
+        "volume of distribution": "5.1 L/kg",
+        "absorption half-life": "1.96 hours"
+    },
+    "thc": {
+        "smoked": {
+            "half-life": "30 minutes",
+            "tmax": "3 minutes",
+            "tmax range": "3 - 10 minutes",
+            "absorption half-life": "0.5 minutes"
+        },
+        "oral": {
+            "half-life": "2 hours",
+            "tmax": "2.6 hours",
+            "absorption half-life": "1.6 hours"
+        }
+    },
+    "valerian root": {
+        "half-life": "1.1 hours",
+        "half-life range": "0.5 - 1.7 hours",
+        "absorption half-life": "0.5 hours"
+    },
+    "capsaicin": {
+        "half-life": "25 minuts",
+        "tmax": "45 minutes",
+        "absorption half-life": "40 minutes",
+        "dosage": {
+            "LD50": "97.2 mg/kg",
+            "NOAEL": "45 minutes"
+        },
+        "misc": {
+            "misc": [
+                "after 105 minutes no capsaicin was detected in blood",
+                "scoville units = mg/g * 16,000 (ppm * 60)",
+                "Carolina Reaper is 81±4 mg/g Capsaicin [1,296,000 Scoville units]  (32±2 mg/g dihydrocapsaicin)",
+                "Ghost pepper is 25.8 mg/g Capsaicin [412,800 Scoville Units] (5.07 mg/g dihydrocapsaicin)"
+            ]
+        }
+    },
+    "citric acid": {
+        "half-life": "2.3 hours",
+        "tmax": "0.8 hours",
+        "absorption half-life": "0.21 hours"
+    },
+    "fentanyl": {
+        "half-life": "1.98 hours",
+        "tmax": "39.7 minutes",
+        "volume of distribution": "3.6 L/kg",
+        "clearance rate": "1.26 L/kg",
+        "absorption half-life": "10 minutes",
+        "dosage": {
+            "LD50": "1 mg/kg",
+            "LDLo": "0.028 mg/kg",
+            "analgesia": "1 ng/ml",
+            "anesthesia": "10 ng/ml"
+        },
+        "misc": {
+            "misc": [
+                "50-fold more potent than heroin",
+                "100-fold for potent than morphine"
+            ]
+        }
+    },
+    "morphine": {
+        "half-life": "1.6 hours",
+        "volume of distribution": "2.9 L/kg",
+        "clearance rate": "1.266 L/kg/h",
+        "tmax": "1.1 hours",
+        "absorption half-life": "25 minutes"
+    },
+    "heroin": {
+        "Half-life": "2.95 minutes",
+        "clearance Rate": "30.8",
+        "volume of Distribution": "131 mL/kg",
+        "tmax": "1.5 minutes",
+        "absorption half-life": "28.5 seconds"
+    },
+    "lavender": {
+        "linalool": {
+            "tmax": "1 hour",
+            "half-life": "2 hour",
+            "absorption half-life": "19 minutes"
+        }
+    },
+    "theobromine": {
+        "half-life": "6.6 hours",
+        "volume of distribution": "0.62 L/kg",
+        "volume of distribution range": "",
+        "clearance rate": "0.065 L/kg/h",
+        "clearance rate range": "0.045 - 85 L/kg/h",
+        "tmax": "2 hours",
+        "tmax dogs": "10 hours",
+        "absorption half-life": "0.5 hours",
+        "absorption half-life dogs": "3.5 hours",
+        "dosage": {
+            "toxic dogs": "100 mg/kg"
+        },
+        "misc": {
+            "misc": [
+                "10-fold less potent than caffeine (methyltheobromine)",
+                "theobromine concentration in milk chocolate 1 g/kg (1 mg/g)",
+                "theobromine concentration in dark chocolate 10 g/kg (10 mg/g)"
+            ]
+        }
+    },
+    "psilocybin": {
+        "tmax": "80 minutes",
+        "half-life": "163 minutes",
+        "half-life range": "99 - 227 minutes",
+        "half-life injected": "74.1 minutes",
+        "half-life injected range": "54.5 - 93.7 minutes",
+        "absorption half-life": "25 minutes",
+        "ld50": "280 mg/kg ",
+        "misc": {
+            "misc": [
+                "psilocybin makes up 1% of mushrooms weight"
+            ]
+        }
+    },
+    "amoxicillin": {
+        "half-life": "1.02 hours",
+        "tmax": "1.23 hours",
+        "absorption half-life": "0.72 hours",
+        "volume of distribution": "0.3 L/kg",
+        "clearance rate": "0.2 L/kg/hour",
+        "NOAEL": "1000 mg/kg",
+        "LD50": "2000 mg/kg",
+        "dosage": {
+            "Minimum Inhibitory Concentration": "0.25 mg/L to 2.00 mg/L"
+        }
+    },
+    "methylamphetamine": {
+        "half-life": "10.7 hours",
+        "volume of distribution": "4.2 L/kg",
+        "clearance rate": "272 mL/h",
+        "tmax": "5.2 hours",
+        "tmax intranasal": "2.7 hours",
+        "tmax smoked": "2.5 hours",
+        "tmax range": "4 - 6.4 hours",
+        "absorption half-life": "97 minutes",
+        "dosage": {
+            "LD50": "57 mg/kg",
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "8000%",
+                    "formula": "mg/kg * 500"
+                }
+            }
+        },
+        "misc": {
+            "misc": [
+                "can increases dopamine by 8000%",
+                "can increase glutamate by 500%"
+            ]
+        }
+    },
+    "prozac": {
+        "half-life": "106 hours",
+        "volume of distribution": "88 L/kg",
+        "clearance rate": "0.576 L/kg/h",
+        "tmax": "5.4 hours",
+        "absorption half-life": "45 minutes"
+    },
+    "acetaminophen": {
+        "half-life": "1.8 hours",
+        "tmax": "1.48 hours",
+        "absorption half-life": "38 minutes",
+        "volume of distribution": "0.9 L/kg",
+        "clearance rate": "0.34 L/kg/h"
+    },
+    "ephedrine": {
+        "half-life": "6.4 hours",
+        "tmax": "1.81 hours",
+        "absorption half-life": "26 minutes"
+    },
+    "yohimbine": {
+        "half-life": "26.3 minutes",
+        "tmax": "0.5 hours",
+        "absorption half-life": "18 minutes",
+        "dosage": {
+            "0.25 mg/kg": "increase norepinephrine by 3-fold (in venous plasma)",
+            "0.5 mg/kg": "increase norepinephrine by 3-fold (in venous plasma)"
+        }
+    },
+    "famotidine": {
+        "half-life": "3.8 hours",
+        "tmax": "2 hours",
+        "absorption half-life": "40 minutes",
+        "volume of distribution": "1 L/kg"
+    },
+    "lorazepam": {
+        "half-life": "11.55 hours",
+        "tmax": "40 minutes",
+        "tmax sublingual": "60 minutes",
+        "volume of distribution": "1.2 L/kg",
+        "clearance rate": "0.072 L/kg/h",
+        "absorption half-life": "6 minutes"
+    },
+    "omeprazole": {
+        "half-life": "51 minutes",
+        "volume of distribution": "0.76 L/kg",
+        "volume of distribution range": "0.5 - 1.02 L/kg",
+        "clearance rate": "0.62",
+        "clearance rate range": "0.35 - 0.89 L/h/kg",
+        "absorption half-life": "2.2 hours",
+        "tmax": "1.9 hours"
+    },
+    "ethanol": {
+        "elimination rate": "0.15 g/kg/hour",
+        "elimination rate range": "0.11 - 0.19 g/kg/hour",
+        "tmax": "7 minutes",
+        "dosage": {
+            "neurotransmitters": {
+                "dopamine": {
+                    "max": "100%",
+                    "formula": "g/kg * 100"
+                }
+            }
+        },
+        "misc": {
+            "misc": [
+                "concentration formula: mL * percentage * (ethanoldensity=0.78945) = grams",
+                "g/kg / 10 = BAC"
+            ]
+        }
+    }
+}
