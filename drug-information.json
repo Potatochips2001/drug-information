@@ -698,7 +698,7 @@
         "absorption half-life": "25 minutes"
     },
     "heroin": {
-        "Half-life": "2.95 minutes",
+        "half-life": "2.95 minutes",
         "clearance Rate": "30.8",
         "volume of Distribution": "131 mL/kg",
         "tmax": "1.5 minutes",
