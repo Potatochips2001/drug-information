@@ -852,5 +852,11 @@
                 "g/kg / 10 = BAC"
             ]
         }
+    },
+    "naringenin": {
+        "tmax": "3.17±0.74 hours",
+        "half-life": "3 hours",
+        "clearance rate": "10.21±2.34 L/h",
+        "absorption half-life": "1.6 hours"
     }
 }
