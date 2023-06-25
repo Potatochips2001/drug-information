@@ -22,7 +22,6 @@
     "buspirone": "2.16 h",
     "oxytocin": "5.9 min 28 min (in CSF)",
     "dopamine": "1.9 min (in plasma) 200 ms (in synapse)",
-    "catnip": "29.4 ± 1.7 min (own data)",
     "setraline": "26 h",
     "tetanus antibodies": "14 years",
     "rabies vaccine/antibodies": "3 years (own data)",
@@ -51,7 +50,7 @@
     "d-amphetamine": "11.1 h",
     "amphetamine": "3.96 h",
     "gabapentin": "6.52 h",
-    "": "Lamotrigine 12.37 h",
+    "lamotrigine": "21.8 h",
     "prolactin": "23.7 min",
     "serotonin": "7 min (in brain) 6 days (in plasma)",
     "hyaluronidase": "(in wasp venom [0.01 mg]): 49 h (in skin) 2.1 ± 0.2 min",
@@ -97,5 +96,9 @@
     "4-hydroxy-3-methoxymethamphetamine": "11.5 h",
     "lisdexamfetamine": "0.47 h",
     "p-hydroxyamphetamine": "10 h",
-    "p-hydroxynorephedrine": "18 h"
+    "p-hydroxynorephedrine": "18 h",
+    "pyrixodal": "0.5 h",
+    "pyrixodal 5-phosphate": "31.5 h",
+    "cyanocobalamin": "21.6 min",
+    "paraxanthine": "1 h"
 }
