@@ -426,6 +426,12 @@
                     "formula": "mg/kg * 500"
                 }
             }
+        },
+        "misc": {
+            "metabolites": {
+                "p-hydroxyamphetamine": {"half-life": "10 hours"},
+                "p-hydroxynorephedrine": {"half-life": "18 hours"}
+            }
         }
     },
     "levoamphetamine": {
@@ -445,6 +451,12 @@
                     "max": "1500%",
                     "formula": "(mg/kg - 1) * 200"
                 }
+            }
+        },
+        "misc": {
+            "metabolites": {
+                "p-hydroxyamphetamine": {"half-life": "10 hours"},
+                "p-hydroxynorephedrine": {"half-life": "18 hours"}
             }
         }
     },
@@ -529,13 +541,13 @@
         }
     },
     "lamotrigine": {
-        "half-life": "12.37 hours",
+        "half-life": "21.8 hours",
         "tmax": "1.3 hours",
         "XR tmax": "3 hours",
-        "absorption half-life": "0.22 hours",
+        "absorption half-life": "11.4 minutes",
         "dosage": {
             "LD50": "205 mg/kg",
-            "TDLo": "3.1 mg/kg"
+            "TDLo": "19 mg/kg"
         }
     },
     "oxytocin": {
@@ -857,6 +869,30 @@
         "tmax": "3.17±0.74 hours",
         "half-life": "3 hours",
         "clearance rate": "10.21±2.34 L/h",
-        "absorption half-life": "1.6 hours"
+        "absorption half-life": "1.6 hours",
+        "misc": {
+            "misc": ["increases caffeine half-life by 31%",
+            "0.5 g l-naringin per 1.2 L grapefruit juice",
+            "1.56 mg naringenin per 100 mL grapefruit juice"]
+        }
+    },
+    "pyridoxine": {
+        "half-life": "0.5 hours",
+        "tmax": "1.25 hours",
+        "absorption half-liife": "1.7 hours",
+        "iv half-life": "0.11 hours",
+        "misc": {
+            "metabolites": {"pyrixodal 5-phosphate": {"half-life": "31.5 hours"}}
+        }
+    },
+    "cyanocobalamin": {
+        "half-life": "21.6 minutes",
+        "tmax": "1 hour",
+        "absorption half-life": "2 hours"
+    },
+    "paraxanthine": {
+        "half-life": "1 hour",
+        "volume of distribution": "1.5 L/kg",
+        "clearance rate": "0.9 L/h/kg"
     }
 }
